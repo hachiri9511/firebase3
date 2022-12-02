@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    
+    background-image: linear-gradient(135deg,#00b7d4,#505488,#2f3f80,#161569,#5A4894,#A950A1,#FF7CAE);
+    background-size:400%;
+    margin-bottom: 180px;
+    animation: fanimado 10s infinite; 
+    
+}
+@keyframes fanimado {
+    0%{
+        background-position: 0% 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+}
+.form-register{
+    width: 400px;
+    background: #24303c;
+    padding: 30px;
+    margin: auto;
+    margin-top:200px;
+    border-radius:4px;
+    font-family: "calibri";
+    color: white;
+    position:relative;
+}
+h1{
+    text-align: center;   
+}
+.controls{
+    width: 100%;
+    background:#24303c;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom:16px;
+    border: 1px solid #1f53c5;
+    font-family: "calibri";
+    font-size:18px;
+    color: white;    
+}
+.limpia{
+    height:40px;
+    
+    font-size:18px;
+}
+.form-register1 .botons {
+    width:100%;
+    background: #1f53c5;
+    border: none;
+    padding:12px;
+    color: white ;
+    margin : 16px;
+    cursor: pointer;
+    text-align: center;
+}
+.form-register1 .axeso{
+    width:100%;
+    background: #1f53c5;
+    border: none;
+    padding:12px;
+    color: white ;
+    margin : 16px;
+    text-align: center;
+    cursor: pointer;
+}
+div .axeso1{
+    width:50%;
+    background: #1f53c5;
+    border: none;
+    padding:10px;
+    color: white ;
+    margin : 2px;
+    text-align: center;
+    cursor: pointer;
+}
+div .axeso2{
+    width:40%;
+    background: #1f53c5;
+    border: none;
+    padding:10px;
+    color: white ;
+    margin : 2px;
+    text-align: center;
+    cursor: pointer;
+    float: right;
+    margin-top:2px;
+    
+}
+    
+
+
+
+
